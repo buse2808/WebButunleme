@@ -1,0 +1,74 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.active{
+    background-color: #165aad;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1f4068;
+    width: 100%;
+}
+  
+  li {
+    float: left;
+    width: 25%;
+    font-size: 20px;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #165aad;
+  }
+
+  .content {
+    width: 100%;
+    height: 100%;
+  }
+  .content a{
+      text-decoration: none;
+      color: black;
+  }
+  .content a:hover{
+      text-decoration: none;
+      color: gray;
+  }
+
+  .content p{
+    height: 100%;
+    color: black;
+    font-size: 40px;
+    text-align: center;    
+}
+
+.hobi {
+    width: 100%;
+    height: 300px;
+}
+
+.hobi img{
+    height: 300px;
+    width: 50%;
+    float: left;
+
+    
+}    
+.hobi p {
+    color:black;
+    font-size: 24px;
+    float: left;
+    width: 50%;
+    text-align: center;
+    margin-top: 50% auto;
+}
